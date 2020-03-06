@@ -12,7 +12,6 @@ module testModule=
 
 [<EntryPoint>]
 let main argv =
-
     printfn "OUTPUT: %s"  (testModule.estimateAges("Friedli", 1959, 1986, 1994))
 
     0
